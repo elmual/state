@@ -53,6 +53,13 @@
 body {
   margin: 0;
 }
+button{
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
 #root {
   width: 1126px;
@@ -61,8 +68,6 @@ body {
   text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
 }
 
